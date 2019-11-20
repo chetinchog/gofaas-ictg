@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/logrusorgru/aurora"
 )
+
 func main() {
 	greetDude := Hello("")
 	fmt.Println(aurora.Yellow(greetDude))
